@@ -7,8 +7,8 @@ function Header() {
     <header>
       <Link to="/" className="logo">Filmly</Link>
       <nav>
-        <Link className="nav-link">Dashboard</Link>
-        <Link className="nav-link">Saved</Link>
+        <Link to="/" className="nav-link">Dashboard</Link>
+        <Link to="/saved" className="nav-link">Saved</Link>
       </nav>
       <div className="search-bar-wrapper">
         <input className="search-bar" type="text" />

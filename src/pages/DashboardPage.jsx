@@ -1,7 +1,17 @@
+import MovieCard from "../components/MovieCard"
+
 function DashboardPage() {
 
   return (
-    <h1>DASHBOARD PAGE</h1>
+    <div className="movie-grid">
+      <MovieCard/>
+      <MovieCard/>
+      <MovieCard/>
+      <MovieCard/>
+      <MovieCard/>
+      <MovieCard/>
+      <MovieCard/>
+    </div>
   )
 }
 
